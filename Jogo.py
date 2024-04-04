@@ -1,6 +1,5 @@
 import random
 
-
 class JogoAdvinhacao:
     def __init__(self):
         self.__numero_secreto = random.randint(1, 100)
@@ -43,7 +42,6 @@ class JogoAdvinhacao:
                 break
             else:
                 print("Resposta inválida. Por favor, digite 'sim' ou 'não'.")
-
 
 game = JogoAdvinhacao()
 game.iniciar_jogo()
